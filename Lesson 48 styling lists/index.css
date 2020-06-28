@@ -1,15 +1,45 @@
 /* List style */
+/* Style links */
 #list-ol{
    
     /* list-style-type: upper-alpha; */
     /* list-style-type:lower-alpha; */
     list-style-type: lower-roman;
     width: 450px;
-    list-style-position: inside;
+    /* list-style-position: inside; */
     
 }
 #list-ul{ 
     list-style-type: square;
-    list-style-type: none;
-    padding-left: 0px;
+    /* list-style-type: none; */
+    /* padding-left: 0px; */
+}
+body{
+    margin: 0px;
+}
+
+#topbar{
+    background-color: aqua;
+    padding: 16px 20px;
+    
+}
+.menu{
+    font-size: 24px;
+    margin-right: 24px;
+    color: black;
+    text-decoration: none;
+
+
+}
+.menu:link{
+    color: black;
+}
+.menu:visited{
+    color: green;
+}
+.menu:hover{
+    color: blue;
+}
+.menu:active{
+    color:purple;
 }
