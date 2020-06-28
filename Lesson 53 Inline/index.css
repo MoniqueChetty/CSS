@@ -1,0 +1,37 @@
+/* Display Block */
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*  */
+body{
+    margin: 0px;
+}
+header{
+    background-color: lightskyblue;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+}
+main{
+    padding: 16px 10%;
+}
+
+aside{
+    width: 29%;
+    margin-right: 1%;
+    background-color: lightsalmon;
+    height: 450px;
+    display: inline-block;
+}
+section{
+    width: 69%;
+    background-color: burlywood;
+    height: 450px;
+    display: inline-block;
+}
+footer{
+    background-color: lightgray;
+    height: 300px;
+}
