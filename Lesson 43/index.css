@@ -26,6 +26,12 @@ h3 {
     text-align: center;
     margin-top: 8px;
     margin-bottom: 8px;
+    text-transform: capitalize;
+    /* letter-spacing: 2px; */
+    /* word-spacing: 2px; */
+    /* line-height: 2px; */
+    /* https://fonts.google.com/specimen/Yellowtail?sidebar.open&selection.family=Yellowtail#glyphs */
+    font-family: 'Yellowtail', cursive;;
 }
 
 .dispay-table {
