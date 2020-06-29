@@ -31,17 +31,38 @@ h2{
 h3{
     color: brown;
 }
-/* Decendent Selector */
+
+/* Decendent Selector ' ' */
 /* article p{
     text-align: center;
     font-size: 18px;
     background-color: aquamarine;
 } */
-/* Child Selector */
-article > p{
+
+/* Child Selector  > direct Decendent */
+/* article > p{
     text-align: center;
     font-size: 18px;
     background-color: aquamarine;
 
-}
+} */
+/*Adjacent Sibling Selector +  */
+
+    /* div + p{
+    text-align: center;
+    font-size: 18px;
+    background-color: aquamarine;
+    } */
+    /* h3 + p{
+        text-align: center;
+        font-size: 18px;
+        background-color: aquamarine;
+        } */
+
+/* General Sibling Selector ~ */
+    div ~ p{
+        text-align: center;
+        font-size: 18px;
+        background-color: aquamarine;
+        }
 
