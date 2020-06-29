@@ -1,0 +1,57 @@
+
+#topbar{
+    background-color: aqua;
+    padding: 16px 20px;
+    box-shadow: 0px 2px 5px gray;
+}
+.menu{
+    float: right;
+    font-size: 18px;
+    padding: 24px;
+}
+
+article{
+    padding: 50px;
+    padding-bottom: 48px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 4px grey;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-shadow: 2px 2px 2px red ,2px 2px 2px red ;
+}
+h3{
+    color: brown;
+}
+/* article>p::first-line{
+    letter-spacing: 3px;
+    color: grey;
+}
+article>p::first-letter{
+    background-color: lightcoral;
+    font-size: 30px;
+    color: grey;
+    text-transform: uppercase;
+}
+article>p::selection{
+    background-color: lightgreen;
+    color: orange;
+} */
+/* article>p::before{
+    content: "'";
+}
+article>p::after{
+    content: "'";
+} */
+/* http://www.softicons.com/ */
+article>p::before{
+    content: url('http://files.softicons.com/download/webicons/strabo-icons-by-visual-idiot/png/24x24/smiley.png');
+}
