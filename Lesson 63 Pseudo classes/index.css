@@ -1,0 +1,83 @@
+#body{
+    background-color:  #f2f6ff; 
+    text-align: center;
+   
+}
+.form {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 700px; 
+}
+#form-heading {
+    font-size: 32px;
+    padding-top: 56px;
+    padding-bottom: 32px;
+}
+.social-icons {
+    width: 50px;
+    height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+#social-icons{
+    background-color:  #f2f6ff;
+}
+
+#input-fields-container {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
+}       
+
+.input-box {
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom: 36px;         
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+/* Input : Focus */
+.input-box:focus{
+    background-color: lightblue;
+}
+.input-box:focus:required{
+    background-color: rgb(177, 79, 79, 0.2);
+}
+
+/* Input disabled */
+/* #email:disabled{
+    cursor: not-allowed;
+}  */
+
+
+#age {
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom: 36px;         
+    width: 100%;  
+}
+
+
+/* #age:focus{
+    background-color: aqua;
+} */
+#submit-button{
+    background-color:  #0056ff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 18px;
+    color:white;
+    border: none;
+}
+/* Change colour on hover */
+#submit-button:hover{
+    background-color: rgb(177, 79, 79, 0.2);
+}
