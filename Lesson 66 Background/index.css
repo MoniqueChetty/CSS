@@ -1,0 +1,48 @@
+
+#topbar{
+    background-color: aqua;
+    padding: 16px 20px;
+    box-shadow: 0px 2px 5px gray;
+}
+.menu{
+    float: right;
+    font-size: 18px;
+    padding: 24px;
+}
+
+article{
+    padding: 50px;
+    padding-bottom: 48px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 4px grey;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-shadow: 2px 2px 2px red ,2px 2px 2px red ;
+}
+h3{
+    color: brown;
+}
+
+article>p::before{
+    content: url('http://files.softicons.com/download/webicons/strabo-icons-by-visual-idiot/png/24x24/smiley.png');
+}
+body{
+    background-image: url('https://img.freepik.com/free-vector/colorful-memphis-design-backgrounf-vector_53876-81744.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat;
+    /* background-size: 800px 800px; */
+    /* background-position: top; */
+    /* background-position: top center; */
+    /* background-size: contain; */
+    background-size: cover;
+}
+
+/* http://sites.psu.edu/bjr5500/files/2017/07/background-wallpapers-beautiful-website-sphere-different-backgrounds-2hiuje6.jpg */
