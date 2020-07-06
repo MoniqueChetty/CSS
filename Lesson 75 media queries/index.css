@@ -84,4 +84,30 @@ aside {
     font-size: 20px;
 }
 
-@media screen and (max-width:768px)
+@media screen and (max-width: 768px) {
+    main {
+        padding: 2%;
+        margin: 0%;
+    }
+    section {
+        display: block;
+        width: 100%;
+        margin: 0%;
+    }
+    p {
+        font-size: 16px;
+        text-align: center;
+        padding: 1%;
+    }
+    aside {
+        width: 100%;
+        display: block;
+    }
+    .place-wrapper p {
+        font-size: 20px;
+    }
+    header {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
