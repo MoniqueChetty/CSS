@@ -1,0 +1,47 @@
+div {
+    background-color: aquamarine;
+    color: blue;
+    width: 300px;
+    height: 300px;
+    margin: 48px;
+    /* Transform */
+    /* position: absolute; */
+    /*  */
+    /* Rotate */
+    /* transform: rotateX(35deg); */
+    /* transform: rotateZ(278deg); */
+    /*  */
+    /* Scale */
+    /* transform: scale(2); */
+    /* transform: scale(0.5, 1.5); */
+    /*  */
+    /* Skew */
+    /* transform: skewX(30deg); */
+    /*  */
+    /* Align */
+    /* left: 50%;
+    transform: translateX(-50%); */
+    /* top: 50%;
+    transform: translateY(-50%); */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /*  */
+    /* Transition */
+    /*  */
+    /* transition-property: background-color;
+    transition-duration: 1000ms; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: linear; */
+    transition: background-color 3s ease-in, border-radius 3s ease-in;
+}
+
+#div2 {
+    background-color: bisque;
+    transition: background-color 3s ease-out, transition: background-color 3x ease-out;
+}
+
+div:hover {
+    background-color: lightcoral;
+    border-radius: 150px;
+}
