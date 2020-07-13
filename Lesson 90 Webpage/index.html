@@ -18,16 +18,31 @@
             <img id="tree-logo" src="https://mobirise.com/extensions/organicamp/assets/images/logo1.jpg" alt="Tree image" />
         </div>
         <div id="topbar-right">
-            <span id="demo" class="menu">Demo Page</span>
-            <span id="watch-video" class="menu">Watch Video</span>
-            <span id="block" class="menu">Blocks</span>
+
+            <span id="demo" class="menu">Demo Page
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+                <div id="dropdown">
+                    <p><a href="#section2">Steps</a></p>
+                    <p><a href="#section4a">Testimonial</a></p>
+                    <p><a href="#section5">Follow Us</a></p>
+                </div>
+            </span>
+            <span id="watch-video" class="menu">
+                <a href="#section6">Watch Video</a>
+            </span>
+            <span id="block" class="menu">Blocks
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </span>
             <button id="btn-buy-now">Buy Now</button>
         </div>
     </nav>
+
     <section id="section1">
         <div>
             <h1>Vegan Store Simple Website</h1>
             <h1>Template</h1>
+        </div>
+        <div>
             <p class="head-desc">With nutrition, all the vital functions of the body are connected. It is the source of the development of tissues and cells, their constant renewal, the saturation of man with energy.</p>
         </div>
     </section>
@@ -62,8 +77,6 @@
         </div>
     </section>
     <section id="section3">
-
-
         <div id="s3-flex" class="flex">
             <div class="steps">
                 <i class="fa fa-camera"></i>
@@ -96,7 +109,6 @@
         </div>
     </section>
     <section id="section4">
-
         <div id="s4-flex" class="flex">
             <div class="testimonial">
                 <img src="https://mobirise.com/extensions/organicamp/assets/images/face5.jpg" alt="Profile 1">
@@ -123,13 +135,14 @@
     </section>
     <section id="section5" class="flex">
         <div id="fruit">
-            <img src="https://mobirise.com/extensions/organicamp/assets/images/19.jpg" alt="Fruit">
+            <!-- <img src="https://mobirise.com/extensions/organicamp/assets/images/19.jpg" alt="Fruit"> -->
         </div>
         <div id="s5-div2">
             <h2>Follow Us</h2>
             <p>A wide range of products; many unusual and tasty products; courteous staff.</p>
             <br/><br/>
-            <p>Your Email</p>
+            <input type="text" placeholder="Your Email">
+            <br>
             <button>Subscribe</button>
         </div>
     </section>
@@ -151,8 +164,10 @@
             <p>Detox Smoothies</p>
         </div>
     </section>
-    <section id="section6">
-        <h2>Vimeo Video</h2>
+    <h2 id="vimeo">Vimeo Video</h2>
+    <div id="line"></div>
+    <section id="section6b">
+        <br>
         <iframe src="https://player.vimeo.com/video/275412279" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </video>
     </section>
@@ -172,10 +187,10 @@
             <p class="green-text">Meet Out Team</p>
             <h2>Get In Touch</h2>
             <p class="head-desc">The task of proper nutrition - to remove from the diet harmful food and enrich it useful.</p>
-            <form>
+            <form id="contact">
                 <input type="text" name="name" id="name" placeholder="Name">
                 <input type="number" name="Phone" id="Phone" placeholder="Phone">
-                <input type="text" name="Subject" id="subject" placeholder="Subject">
+                <input type="email" name="Email" id="subject" placeholder="Email">
                 <input type="text" name="message" id="message" placeholder="Message">
                 <button type="submit">Submit Now</button>
             </form>
