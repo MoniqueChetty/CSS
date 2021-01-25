@@ -1,131 +1,150 @@
-nav{
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+nav {
     text-align: right;
     /* padding: 20px;
     margin: 24px; */
 }
-#tiny-photo{
-    width: 32px;
-    border-radius: 30px;
-    
+
+#tiny-photo {
+    width: 80px;
+    border-radius: 100px;
 }
-.menu{
-    font-size: 13px;
+
+.menu {
+    font-size: 36px;
     color: rgba(0, 0, 0, 0.87);
-    margin-right: 16px;
+    margin-right: 30px;
     text-decoration: none;
     position: relative;
-    top: -14px;
+    top: -36px;
 }
-.menu:hover{
+
+.menu:hover {
     text-decoration: underline;
 }
-#dropdown-menu{
-    margin-right: 16px;
-    position: relative;
-    top: -7px;
 
+#dropdown-menu {
+    width: 100px;
+    margin-right: 36px;
+    position: relative;
+    top: -20px;
+    font-size: 56px;
 }
-body{
-    font-family: Arial, sans-serif;
-    padding: 10px;
-        
+
+#google-logo {
+    width: 500px;
 }
-section{
+
+section {
     text-align: center;
     padding-top: 15%;
 }
 
-#search-box{
-    width: 100%;
+#search-box {
     color: #222;
     border: 1px solid #dfe1e5;
-    font-size: 13px;
-    padding: 14px;
+    font-size: 75px;
+    /* padding: 14px; */
     border-radius: 24px;
     outline: none;
 }
-#search-wrapper{
+
+#search-wrapper {
     margin: 24px;
     position: relative;
-    width: 582px;
+    width: 1000px;
     display: inline-block;
+}
 
-}
-#voice-search{
-    width: 24px;
+#voice-search {
+    width: 46px;
     position: absolute;
-    top: 12px;
-    right: 10px;
-    
+    top: 20px;
+    right: 70px;
 }
-#search-box:hover{
+
+#search-box:hover {
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     border-color: rgba(223, 225, 229, 0);
 }
-#search-box:focus{
+
+#search-box:focus {
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     border-color: rgba(223, 225, 229, 0);
 }
-.btn{
-    background-color:  #f2f2f2;
+
+.btn {
+    background-color: #f2f2f2;
     color: #5F6368;
-    font-size: 14px;
-    height: 36px;
+    font-size: 26px;
+    height: 76px;
     padding: 0 16px;
     background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
     border: 1px solid transparent;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
     color: #222;
+    border-radius: 10px;
 }
-.btn:hover{
+
+.btn:hover {
     background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     color: #222;
-
 }
-.btn:first-of-type{
+
+.btn:first-of-type {
     margin-right: 16px;
 }
-#dropdown-app{
-    width: 285px;
-    padding: 28px;
+
+#dropdown-app {
+    width: 100px;
+    padding: 52px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-
 }
-.app-item{
+
+.app-item {
     display: inline-block;
-    width: 84px;
-    padding: 8px 2px;
+    width: 120px;
+    padding: 8px 8px;
     text-align: center;
 }
-.app-item:hover{ 
+
+.app-item:hover {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+}
 
+.app-item>img {
+    width: 80px;
+    height: 80px;
 }
-.app-item>img{
-    width: 50px;
-    height: 50px;
-}
-.app-item>p{
+
+.app-item>p {
     color: rgba(0, 0, 0, 0.87);
 }
-#dropdown-wrapper{
+
+#dropdown-wrapper {
     display: inline-block;
 }
-#dropdown-wrapper:hover #app-dropdown{
+
+#dropdown-wrapper:hover #app-dropdown {
     display: block;
 }
 
-#app-dropdown{
-    width: 285px;
-    padding: 28px;
+#app-dropdown {
+    width: 450px;
+    padding: 36px;
     border: 1px solid #ccc;
+    background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 60px;
-    right: 60px;
+    top: 160px;
+    right: 160px;
     display: none;
 }
