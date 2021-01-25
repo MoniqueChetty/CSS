@@ -1,53 +1,54 @@
-                    body {
-                    text-align: center;
-                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                    font-size: 36px;
-                }
-                
-                #header {
-                    background-color: lightseagreen;
-                    padding: 24px;
-                    grid-area: header;
-                }
-                
-                #sidebar {
-                    background-color: lightcoral;
-                    padding: 24px;
-                    grid-area: sidebar;
-                }
-                
-                #main {
-                    background-color: lightblue;
-                    padding: 24px;
-                    grid-area: main;
-                    height: 460px;
-                }
-                
-                #aside {
-                    background-color: bisque;
-                    padding: 24px;
-                    grid-area: aside;
-                }
-                
-                #footer {
-                    background-color: lightseagreen;
-                    padding: 24px;
-                    grid-area: footer;
-                }
-                
-                #grid-container {
-                    display: grid;
-                    grid-template-areas: 'header header header header header header ' 'sidebar main main main main aside' 'footer footer footer footer footer footer ';
-                    grid-gap: 16px;
-                }
-                
-                @media (max-width:900px) {
-                    #grid-container {
-                        grid-template-areas: 'header header header header header header' 'sidebar main main main main main' 'aside aside aside aside aside aside' 'footer footer footer footer footer footer';
-                        grid-gap: 10px;
-                    }
-                    @media (max-width:400px) {
-                        #grid-container {
-                            grid-template-areas: 'header header header header header header' ' sidebar sidebar sidebar sidebar sidebar sidebar' 'main main main main main main' 'aside aside aside aside aside aside' 'footer footer footer footer footer footer';
-                        }
-                    }
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+}
+
+#header {
+    background-color: lightseagreen;
+    padding: 24px;
+    grid-area: header;
+}
+
+#sidebar {
+    background-color: lightcoral;
+    padding: 24px;
+    grid-area: sidebar;
+}
+
+#main {
+    background-color: lightblue;
+    padding: 24px;
+    grid-area: main;
+    height: 460px;
+}
+
+#aside {
+    background-color: bisque;
+    padding: 24px;
+    grid-area: aside;
+}
+
+#footer {
+    background-color: lightseagreen;
+    padding: 24px;
+    grid-area: footer;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header ' 'sidebar main main main main aside' 'footer footer footer footer footer footer ';
+    grid-gap: 16px;
+}
+
+@media (max-width:900px) {
+    #grid-container {
+        grid-template-areas: 'header header header header header header' 'sidebar main main main main main' 'aside aside aside aside aside aside' 'footer footer footer footer footer footer';
+        grid-gap: 10px;
+    }
+    @media (max-width:400px) {
+        #grid-container {
+            grid-template-areas: 'header header header header header header' ' sidebar sidebar sidebar sidebar sidebar sidebar' 'main main main main main main' 'aside aside aside aside aside aside' 'footer footer footer footer footer footer';
+        }
+    }
+}
