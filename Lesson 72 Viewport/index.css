@@ -2,7 +2,6 @@ body {
     margin: 0px;
     background-color: #f0f2f3;
     align-items: center;
-    
 }
 
 header {
@@ -24,7 +23,8 @@ h3 {
     text-transform: capitalize;
     font-family: 'Yellowtail', cursive;
 }
-h2{
+
+h2 {
     margin: 16px 16px 12px;
     font-size: 24px;
     font-family: 'Yellowtail', cursive;
@@ -38,18 +38,16 @@ h2{
     height: 250px;
 }
 
-
 p {
     font-size: 18px;
     text-align: center;
     padding: 18px;
     word-wrap: break-word;
-    
 }
-article{
+
+article {
     width: 300px;
     height: 400px;
-    
     padding: 0px 0px 24px 0px;
     margin: 24px;
     background-color: rgb(253, 250, 250);
@@ -57,35 +55,10 @@ article{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-#div-section{
+
+#div-section {
     float: left;
-3
-
-'3
-96+8
-1+657\
-+
-21
-+51+8451
-+6
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5412
-451
-35
-4459
-4'
+    3 '3
+ 96+8 1+657\+21+51+8451+6 5412 451 35 4459 4'
 
 }
