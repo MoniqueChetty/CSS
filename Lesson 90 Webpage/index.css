@@ -106,6 +106,7 @@ section p {
     background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
     background-position: center;
     background-size: cover;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,10 +122,11 @@ section p {
 
 h1 {
     font-family: 'Poppins', sans-serif;
+    color: black;
     font-weight: 600;
     font-size: 44px;
     letter-spacing: 8.8px;
-    line-height: 1.2px;
+    /* line-height: 1.2px; */
     text-align: center;
     padding: 5px;
 }
@@ -398,4 +400,132 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    #topbar-right span {
+        display: none;
+    }
+    h1 {
+        width: 100%;
+        font-weight: 400;
+        font-size: 28px;
+    }
+    #section2 {
+        height: auto;
+        /* height: 1660px; */
+    }
+    #section2 div {
+        padding: 2%;
+    }
+    .steps {
+        width: 100vw;
+    }
+    #section3a {
+        margin-top: 1px;
+    }
+    #section3 i {
+        font-size: 16px;
+        width: 35px;
+        height: 35px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #section4a {
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .testimonial {
+        display: block;
+        background-color: #f5f6fb;
+        border-radius: 45px;
+        border-top-right-radius: 0px;
+        margin: 10px;
+        width: 80vw;
+        padding-top: 2%;
+        padding-bottom: 4%;
+    }
+    #section4 br {
+        height: 1px;
+    }
+    #fruit {
+        width: 100vw;
+    }
+    #fruit img {
+        display: none;
+    }
+    #s5-div5 {}
+    #section5 {
+        margin-top: 5px;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 2px;
+    }
+    #line {
+        background-color: #e4b476;
+        width: 130px;
+        height: 1px;
+        margin: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #section6b {
+        height: 600px;
+    }
+    #section7 {
+        text-align: left;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 600px;
+        margin-bottom: 20px;
+    }
+    .head-desc {
+        padding-left: 20px;
+        text-align: left;
+    }
+    #section7 p {
+        /* padding-left: 20px; */
+        text-align: left;
+    }
+    #section7 h3 {
+        padding-left: 20px;
+        /* text-align: left; */
+    }
+    #section7 h2 {
+        padding-left: 20px;
+        text-align: left;
+    }
+    #section-div {
+        margin: 40px 20px;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: left;
+        padding-left: 15px;
+    }
+    #contact input {
+        /* padding: 20px; */
+        margin: 5px 0px;
+        padding-left: 20px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        height: 50px;
+    }
+    #contact button {
+        width: 200px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
 }
